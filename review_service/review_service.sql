@@ -4,6 +4,5 @@ CREATE TABLE IF NOT EXISTS reviews (
     rating INTEGER NOT NULL,
     comment TEXT,
     reviewer TEXT NOT NULL,
-    date TEXT NOT NULL,
-    FOREIGN KEY (book_id) REFERENCES books (id)
+    date TEXT NOT NULL
 );
